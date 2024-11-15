@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\c-sharp-software.csproj",
-      "projectName": "c-sharp-software",
-      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\c-sharp-software.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "projectName": "TestProject",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\CsharpProjects\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Desktop\\BYU-Idaho\\CSE 310 Applied Programming\\c-sharp-software\\CsharpProjects\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
