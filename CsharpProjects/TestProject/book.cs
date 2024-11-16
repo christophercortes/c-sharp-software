@@ -1,5 +1,6 @@
 namespace Classes;
 
+// This class keeps record of the books in the library system.
 public class Books
 {
     private List<string> fantasyBooks;

@@ -1,5 +1,6 @@
 namespace Classes;
 
+// This class keeps record of the genre type in the system.
 public class Catalog
 {
     private List<string> catalog;

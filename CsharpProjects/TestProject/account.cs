@@ -22,9 +22,11 @@ public class LibraryCatalogSystem
         }
     }
 
-    // Retrieve account number 
+    // Print a user number ID with a private method so I can only be retrieve in the class.
     private static int s_userAccount = 1234567890;
     private List<Return> _allReturn;
+
+    // This functin sets the inital Loan for users and I will print the data when call.
     public LibraryCatalogSystem(string name, int initialLoan)
     {
         if (initialLoan < 0)
@@ -40,7 +42,8 @@ public class LibraryCatalogSystem
         ReturnBooks(initialLoan, DateTime.Now, "Library System");
     }
 
-    // Request a new book only if it is less than 10.
+    // This function check if the user is avable to make a request only if it is less than 10. The function also provide
+    // some detials like the date and a note.
 
     public void RequestBooks(int amount, DateTime date, string note)
     {
@@ -56,7 +59,7 @@ public class LibraryCatalogSystem
         _allReturn.Add(request);
     }
 
-    // Return books to the library.
+    // This function checks the amount of books that must be return to the libray.
     public void ReturnBooks(int amount, DateTime date, string note)
     {
         if (amount <= 0)
@@ -72,6 +75,7 @@ public class LibraryCatalogSystem
         _allReturn.Add(returnLoans);
     }
 
+    // This function will print the history of the user in the system.
     public string GetAccountHistory()
     {
         var report = new StringBuilder();

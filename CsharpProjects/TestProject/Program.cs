@@ -1,13 +1,13 @@
 ﻿using System.Reflection.Metadata;
 using Classes;
-
+// Print a welcoming message.
 Console.WriteLine($"\n||:. Welcome to the Library Catalog System .:||\n");
 
 Catalog myCatalog = new Catalog();
 List<string> catalogList = myCatalog.GetCatalog();
 
+// Print genre collection
 Console.WriteLine("Our genre collection is:\n");
-
 foreach (string item in catalogList)
 {
     Console.Write($" {item} |");
@@ -15,6 +15,7 @@ foreach (string item in catalogList)
 
 Console.WriteLine("\n");
 
+// Print Genre type plus books collection
 Books myBooks = new Books();
 
 Console.WriteLine("Fantasy:\n");
@@ -77,10 +78,13 @@ foreach (var h in history)
 
 Console.WriteLine("\n");
 
+// Require inpt from the user and print user's name with an account ID number.
 Console.WriteLine("-------------------------------------------\n");
 Console.WriteLine("What's your name?");
 string? userName = Console.ReadLine()?.Trim().ToLower();
 
+
+// This print the history of the user with loans and returns.
 var account = new LibraryCatalogSystem($"{userName}", 10);
 Console.WriteLine($"{account.User} your ID number is {account.Number} and you have {account.Loan} initial Loans.\n");
 Console.WriteLine("-------------------------------------------");
@@ -112,6 +116,7 @@ switch (answer)
         break;
 }
 
+// This section prevents error exepctions.
 try
 {
     var invalidAccount = new LibraryCatalogSystem("invalid", 10);

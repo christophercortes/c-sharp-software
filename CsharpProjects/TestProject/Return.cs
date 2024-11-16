@@ -1,5 +1,6 @@
 namespace Classes;
 
+// This class keeps a record of the book to be returned. 
 public class Return
 {
     public int Amount { get; }
